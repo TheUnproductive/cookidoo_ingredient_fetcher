@@ -1,0 +1,58 @@
+name: Ananas-Lauch-Schichtsalat
+ingredients:
+- name: Gouda
+  quantity: 200.0
+  unit: g
+  description: in Stücken
+- name: Wasser
+  quantity: 300.0
+  unit: g
+  description: null
+- name: Eier
+  quantity: 4.0
+  unit: Stück
+  description: null
+- name: Sellerie-Streifen, süß-sauer eingelegt
+  quantity: 1.0
+  unit: Glas
+  description: (Abtropfgew. 190 g)
+- name: Mais
+  quantity: 1.0
+  unit: Dose
+  description: (Abtropfgew. 285 g)
+- name: Ananasstücke
+  quantity: 1.0
+  unit: Dose
+  description: (Abtropfgew. 490 g)
+- name: Schinken, gekocht
+  quantity: 200.0
+  unit: g
+  description: in Scheiben
+- name: Äpfel
+  quantity: 3.0
+  unit: Stück
+  description: rotschalig
+- name: Porreestangen
+  quantity: 2.0
+  unit: Stück
+  description: in dünnen Ringen
+- name: Salatcreme
+  quantity: 200.0
+  unit: g
+  description: (z. B. Miracel Whip)
+- name: Schmand
+  quantity: 200.0
+  unit: g
+  description: null
+- name: Salz
+  quantity: 0.75
+  unit: TL
+  description: null
+- name: Curry
+  quantity: 1.0
+  unit: EL
+  description: (optional)
+- name: Pfeffer
+  quantity: 0.5
+  unit: TL
+  description: null
