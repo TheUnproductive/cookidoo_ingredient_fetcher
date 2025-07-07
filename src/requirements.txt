@@ -1,5 +1,4 @@
 selenium
 rich
 pydantic
-yaml
-unicodedata
+pyyaml
