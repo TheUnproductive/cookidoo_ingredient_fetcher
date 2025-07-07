@@ -3,6 +3,7 @@ import yaml
 import pathlib
 from rich.console import Console
 from libs.cookidoo_url_analyser import analyse_cookidoo_url
+from libs.yaml_creator import create_yaml
 
 def main():
 
@@ -29,12 +30,8 @@ def main():
             console.print("Failed to retrieve recipe data. Please check the URL.", style="bold red")
             return 1
         
-        yaml_data = yaml.dump(recipe_data, allow_unicode=True, sort_keys=False)
-        if not args.output:
-            args.output = pathlib.Path("output", recipe_data.get("name") + ".yaml")
-        with open(args.output, "w", encoding="utf-8") as file:
-            file.write(yaml_data)
-            console.print(f"Recipe ingredients saved to {args.output}", style="bold green")
+        create_yaml(recipe_data, pathlib.Path(args.output) if args.output else None)
+        console.print(f"Recipe ingredients saved to {args.output if args.output else "output/" + recipe_data.get("name") + ".yaml"}", style="bold green")
 
     elif args.recipe_html:
         return 0
